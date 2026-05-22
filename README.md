@@ -4,12 +4,13 @@ This awesome list is dedicated to resources for using Large Language Models (LLM
   
 ## Table of Contents  
   
-* [Terminology](#terminology)  
+* [Terminology](#terminology)
 * [Hosted Models](#hosted-models)
 * [Local Models](#local-models)
 * [Python Libraries](#python-libraries)
+* [Online Tools](#online-tools)
 * [Blog Articles](#blog-articles)
-* [Videos](#videos) 
+* [Videos](#videos)
 * [Jupyter Notebooks](#jupyter-notebooks)
 * [Leaderboards](#leaderboards)
   
@@ -117,6 +118,10 @@ Below is a list of hosted API models that support multiple parallel function cal
 [Formatron](https://github.com/Dan-wanna-M/formatron) (MIT) is an efficient and scalable constrained decoding library that enables controlling over language model output format using f-string templates that support regular expressions, context-free grammars, JSON schemas, and Pydantic models. Formatron integrates seamlessly with various model inference libraries.
 
 [Transformers-cfg](https://github.com/epfl-dlab/transformers-CFG) (MIT) extends Hugging Face Transformers with context-free grammar (CFG) support via an EBNF interface. It enables grammar-constrained generation with minimal changes to existing code of transformers and supports JSON mode and JSON Schema.
+
+## Online Tools
+
+[AI JSONMedic](https://aijsonmedic.com) is a free online tool that automatically repairs malformed JSON from LLM outputs. It handles the most common LLM JSON errors: markdown code fences, Python boolean literals (`True`/`False`/`None`), trailing commas, truncated streaming responses, and missing brackets. Paste broken LLM output and get clean JSON back — no signup required. Also includes a [JSON validator](https://aijsonmedic.com/validate), [formatter](https://aijsonmedic.com/format), [minifier](https://aijsonmedic.com/minify), and [diff tool](https://aijsonmedic.com/diff).
 
 ## Blog Articles
 
